@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Peter Biczo</title>
+		<title>HTML Development</title>
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/reveal.css">
@@ -24,113 +24,110 @@
 	</head>
 	<body>
 		<div class="reveal">
+			<img src="img\Analyticality_50.jpg" align = "left" style="border:0px solid black"></img>
 			<div class="slides">
 				<section>
-					<h1> Welcome </h1>
+					<h2>Wellcome</h2>
+					<p> <font size="4">HTML tagging</font></p>
 				</section>
 				<section>
 					<section>
-						<h2>An alternative introduction</h2>
-						<br>
-						<p>Let's make this a bit different, I promise by the end you will have a chance to get my 
-							CV in a more conventional format.
-						</p>
-						<br>
-						<p>
-							<font style="font-size:50%;">I don't think the navigation requires 
-								much explanation, but you never know. <br> See details on the next slide.</font>
-						</p>
-						<a href="#" class="navigate-down">
-							<p><font style="color:red;" size = "3">Hit space now!</font></p>
-						</a>
-					</section>
-					<section>
-						<h2>NAVIGATION</h2>
-						<br>
-						<p>	<font style="font-size:50%;">
-								If you want you can just keep hitting the <strong style="color:DodgerBlue;">Space bar</strong> 
-								<br>or you can click on the <strong style="color:DodgerBlue;">arrows</strong> in the bottom right corner.
-								<br>Alternatively you can use the <strong style="color:DodgerBlue;">arrows on you keyboard.</strong>
-								<br>To see a map of the slides press the <strong style="color:DodgerBlue;">ESC</strong> button.
-							</font>
-						</p>
-					</section>
-				</section>
-				
-				<section>
-					<section>
-						<h2>Introduction</h2>
-						<p style="font-size:50%;">
-							Hi,
-							<br>My name is Peter and I am an analyst. You can call it different names, 
-							<br>but at the end of the day, I work with data. From collection to reporting.
-							<br>If you are on this page, that means the link was either sent to you or 
-							<br>you are a weirdo collecting data. Either way have fun.
-							
-						</p>
-					</section>
-					<section>
-						<h2>Skillset</h2>
-					</section>
-					<section>
-						<p>Skillset</p>
-						<p style="font-size:50%;">Data Visualization</p>
-						
+						<p style="text-align:left;">HTML tagging</p>
 						<p style="font-size:50%;text-align:justify;">
+							<br>&nbsp;<font style="color:orange;">How to make webtracking/testing more reliable?</font>
+							<br>&nbsp;&#9900;&nbsp;&nbsp;&nbsp; Use id tags in the elements
+							<br>&nbsp;&#9900;&nbsp;&nbsp;&nbsp; Communication between front end and test dev
+							<br>
+							<br><a href="#" class="navigate-down">Examples</a>
 
-							<br><br>I have been involved with data visualization with the following solutions:
-								
-									<br>&#9900; <strong style="color:DodgerBlue;"> Excel </strong>
-									<br>&#9900; <strong style="color:DodgerBlue;"> Tableau </strong>
-									<br>&#9900; <strong style="color:DodgerBlue;"> Python modules </strong>
-										<br>&nbsp;&nbsp;&nbsp;&nbsp;&#9900; <strong style="color:DodgerBlue;"> Matplotlib </strong>
-										<br>&nbsp;&nbsp;&nbsp;&nbsp;&#9900; <strong style="color:DodgerBlue;"> Seaborn </strong>
-										<br>&nbsp;&nbsp;&nbsp;&nbsp;&#9900; <strong style="color:DodgerBlue;"> Bokeh </strong>
-								
-							<br>Although, I do enjoy working with Tableau, Excel and all of those, however 
-							I will always prefer to use open-source. Sometimes it can be more challenging, but 
-							it is minimalistic and to the point. Fancy reports with pretty colours 
-							are there to impress the investors without technical knowledge. 
-							For the day-to-day work you don't need that.
-							<br>On a later stage a few impages will be pasted here.
-						</p>	
+						</p>
 					</section>
 					<section>
-						<p>Skillset</p>
-						<p style="font-size:50%;">Data Gathering</p>
-
-						<p style="font-size:50%;text-align:justify;">
-							<br><br>The data needs to come from a reliable source, which can be a database, an email or as simple as a csv file from a server.
-							<br>If we have the data stored as 
-							<br>Once I know, what I am dealing with, a decision needs to be made how to turn this into a report
-					
-						</p>	
-					</section>
-					<section>
-						<p>Skillset</p>
-						<p style="font-size:50%;">Data Processing</p>
-
+						<p style="text-align:left;">HTML tagging</p>
+						<div style="font-size:50%;text-align:left;">
+							<p>Navigation bar</p>
+							<img src="img\navbar_bottom.PNG" align = "left" style="border:0px solid black"></img>
+							<p>	relevant HTML</p>
+							<img src="img\navbar_html.PNG" align = "left" style="border:0px solid black"></img>
+						</div>
+						</section>
+						<section>
+						<p style="text-align:left;">HTML tagging</p>
 						<p style="font-size:50%;text-align:left;">
-							<br>Data processing always start with an <a href = "https://en.wikipedia.org/wiki/Exploratory_data_analysis">EDA</a>
-							<br>Once I know, what I am dealing with, a decision needs to be made how to turn this into a report
-					
-						</p>	
+							<br> How do you capture this?
+						</p>
+
+						<p style="font-size:38%;text-align:justify;background-color:rgb(16, 42, 61);" >
+
+							<br> &nbsp;&nbsp;&nbsp;&nbsp;hold1 = browser.<font style="color:DodgerBlue;">find_element_by_xpath</font>(<font style="color:rgb(60, 179, 113);"><b>"//div[@class = 'Navigation__TopLevelNavigationWrapperCss-sacwol-0 gKAIKz']"</b></font>)
+							<br> &nbsp;&nbsp;&nbsp;&nbsp;CasinoButton = hold1.<font style="color:DodgerBlue;">find_elements_by_xpath</font>(<font style="color:rgb(60, 179, 113);"><b>".//div[@class = 'NavigationItem__NavButtonContainerCss-sc-1h3iu9k-0 ijEaQd']"</b></font>)[<font style="color:red;"><b>-1</b></font>]
+							<br> &nbsp;&nbsp;&nbsp;&nbsp;CasinoButton.<font style="color:DodgerBlue;">click()</font>
+							<br> &nbsp;
+						</p>
+
+						<p style="font-size:45%;text-align:justify;">
+							Alternatively, you could
+							<br>&nbsp;&#9900;&nbsp;&nbsp;&nbsp;look for an item where the text prints casino,
+							<br>&nbsp;&#9900;&nbsp;&nbsp;&nbsp;or implement an id for each element on the Navigation Bar
+							<br>
+							<br><a href="#" class="navigate-right">Lets see another exmple</a>
+						</p>
 					</section>
 				</section>
-				
-					
 				<section>
 					<section>
-						<a href="#" class="navigate-down">
-							<h2>Experiences</h2>
-						</a>
+						<p style="text-align:left;">HTML tagging</p>
+						<p style="font-size:60%;text-align:justify;">Lazy loading</p>
+						<p style="font-size:50%;text-align:justify;">When working on website with a lot of media or iframe content it's important to load lazily.
+							Meaning only load contents when those are near to what you are looking at. This has been introduced with the recent web update on the sport and the casino side as well.
+						 	There is nothing wrong with lazy loading from the testing perspective, however if the tags are not in place it makes things complicated, more time-consuming and sensitive to changes.
+							<br><br><a href="#" class="navigate-down">Example</a></p>
 					</section>
 					<section>
-				
+						<p style="text-align:left;">HTML tagging</p>
+						<p style="font-size:60%;text-align:justify;">Lazy loading</p>
+						<picture>
+							<img src="img\Lazy.PNG" align = "left" style="border:0px solid black"></img>
+						</picture>
+						<p style="font-size:40%;text-align:justify;"><br><br><br><br><br><br><br><br><br><br><br>This is basically the top of the casino site
+							<font style="color:rgb(99, 178, 0);">id=</font><font style="color:DodgerBlue;">"two-column"</font> covers a container for the left side of the page.
+							This contains 6 wrapper container-box for the games. Only the first one has a class, that is the banner, which is being followed by Feaatured, Video Bingo, Slots, Cards, Roulette.
+							As you can see the next 3 elements are not active. I can scroll using the script, however but the positions can change any time if Casino decides to show more or less then n rows within a category.
+							<br><br><a href="#" class="navigate-down">Suggestion: </a>
+						</p>
 					</section>
 					<section>
-				
+						<p style="text-align:left;">HTML tagging</p>
+						<p style="font-size:60%;text-align:justify;">Lazy loading</p>
+						<p style="font-size:40%;text-align:justify;"><br><br>If an id would be added for each container I could get the script to scroll exactly to that particular
+							item which then automatically becomes active, so I can get access to everything within that category.
+							<br>The code would look something like this:
+						</p>
+						<blockquote>
+							<pre>
+								<code style="font-size:60%;text-align:left;">
+<div id="two-column" class="...">
+	<section id="Banner" class="ignore this bit->"></section>
+	<div id="Featured"></div>
+	<div id="Bingo"></div>
+	<div id="Slots"></div>
+	<div id="Cards"></div>
+	<div id="Roulette"></div>
+</div>
+								</code>
+							</pre>
+						</blockquote>
 					</section>
+				</section>
+				<section>
+					<p style="text-align:left;">HTML tagging</p>
+					<p style="font-size:60%;text-align:justify;">Conclusion</p>
+					<p style="font-size:40%;text-align:justify;">
+						<br>If an element has an id it is supper easy to locate and control everything else within the test.
+						When a website is under develepment it is essential to use tags as specific as possible.
+						Once the item has an id, the content can be moved around, change size, apply lazy loading, etc...
+						On the other hand when you don't have an id every time the classname or position is changed the scriptis  going to have an error.
+					</p>
 				</section>
 			</div>
 		</div>
@@ -142,6 +139,8 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				controlsLayout: 'edge',
+				hash: true,
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
